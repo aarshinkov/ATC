@@ -15,7 +15,7 @@ _Note: The 1. (departure clearance) could be given at the holding point (after 3
 
 _Note: For **VFR** the **2. (Startup and pushback)** and **3. (Taxiing)** are generally **same as an IFR flight**_.
 
-[*] - Left/Right hand traffic pattern, dependend on runway in use and airport procedures (for this example in LBSF, Left - 27 and Right - 09).
+[*] - Left/Right hand traffic pattern, dependend on runway in use and airport procedures (for this example in LBSF, Right - 27 and Left - 09).
 
 ## 1. Traffic pattern
 
@@ -147,7 +147,7 @@ After landing, taxi instructions should be given to the aircraft to a designated
 
 ---
 
-[**] - **Left/Right** turnout, dependend on runway in use and airport procedures (for this example in LBSF, **Left** - 27 and **Right** - 09).
+[**] - **Left/Right** turnout, dependend on runway in use and airport procedures.
 
 ## 2. Flight for another airport
 
