@@ -149,15 +149,19 @@ After landing, taxi instructions should be given to the aircraft to a designated
 
 [**] - **Left/Right** turnout, dependend on runway in use and airport procedures.
 
-## 2. Flight for another airport
+## 2. Leaving Sofia Control Zone
 
 ### 1. Departure clearance
 
-**Pilot:** Sofia Tower, LZBKGE with information [ATIS_information] on board, requesting VFR flight to [destination].
+**Pilot:** Sofia Tower, LZBKGE with information [ATIS_information] on board, requesting leaving the Sofia control zone, via [cta_exit_waypoint].
 
-**ATC**: LZBKGE, cleared VFR to [destination], after departure runway [active_runway], turn [**] to [initial VFR point] then as filed, not above altitude [max_altitude_within_airport_cta], squawk [assigned_squawk].
+_Note: [cta_exit_waypoint] - for example ADBIL to the north-east, or XUDLA to the south-east and so on)_
 
-**Pilot:** Cleared VFR to [destination], after depature runway [active_runway], turn [**] to [initial_vfr_point] then as filed, not above altitude [max_altitude_within_airport_cta], squawk [assigned_squawk], LZBKGE.
+**ATC**: LZBKGE, cleared exit the Sofia control zone via [airway], after departure runway [active_runway], turn [**] to [initial VFR point] then as filed, not above altitude [max_altitude_within_airport_cta], squawk [assigned_squawk].
+
+_Note:_ The [airways] in Sofia could be eg. V430, V428 V426 and such (look at the VFR charts).
+
+**Pilot:** Cleared to exit the Sofia control zone via [airway], after departure runway [active_runway], turn [**] to [initial_vfr_point] then as filed, not above altitude [max_altitude_within_airport_cta], squawk [assigned_squawk], LZBKGE.
 
 **ATC:** LZBKGE, readback is correct.
 
@@ -206,37 +210,7 @@ Step 1. could be made here, just before take-off.
 
 _Note: If aircraft will be above certain altitude after leaving CTA instead on UNICOM, the aircraft should be transferred either to Approach or to Control. Please, coordinate this with the following position above you._
 
-## 3. Leaving Sofia Control Zone
-
-It is basically the same as **2. Flight for another airport**, except for the clearance details.
-
-### 1. Departure clearance
-
-**Pilot:** Sofia Tower, LZBKGE with information [ATIS_information] on board, requesting leaving the Sofia control zone, via [cta_exit_waypoint].
-
-_Note: [cta_exit_waypoint] - for example ADBIL to the north-east, or XUDLA to the south-east and so on)_
-
-**ATC**: LZBKGE, cleared exit the Sofia control zone via [airway], after departure runway [active_runway], turn [**] to [initial VFR point] then as filed, not above altitude [max_altitude_within_airport_cta], squawk [assigned_squawk].
-
-_Note:_ The [airways] in Sofia could be eg. V430, V428 V426 and such (look at the VFR charts).
-
-**Pilot:** Cleared to exit the Sofia control zone via [airway], after depature runway [active_runway], turn [**] to [initial_vfr_point] then as filed, not above altitude [max_altitude_within_airport_cta], squawk [assigned_squawk], LZBKGE.
-
-**ATC:** LZBKGE, readback is correct.
-
-### 2. Startup
-
-_Same as the previous ones._
-
-### 3. Taxiing
-
-_Same as the previous ones._
-
-### 4. Take-off
-
-_Same as the take-off for **2. Flight for another airport**_
-
-## 4. Entering Sofia Control Zone
+## 3. Entering Sofia Control Zone
 
 _Note: Before entering the Sofia Control Zone, the aircraft must contact you and request a permission to enter._
 
